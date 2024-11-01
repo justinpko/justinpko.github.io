@@ -54,6 +54,8 @@
 
             <h3>Past Teaching</h3>
 
+
+
             <!-- <ul>
                 <li><b>APM 346: Partial Differential Equations (Winter 2020)</b> <a class="toggle" onclick="showToggle(this,'APM346_2020S')">[SHOW]</a>
                     <ul id="APM346_2020S" style="display:none;">
@@ -71,7 +73,7 @@
             </ul> -->
 
             <ul>
-                <li><b>STAT 230: Probability (Winter 2024)</b> <a class="toggle" onclick="showToggle(this,'STAT230_2024W')">[SHOW]</a>
+                <li><b>STAT 230: Probability (Winter 2024)</b> <a class="toggle" onclick="showToggle(this,'STAT230_2024W')">[+]</a>
                     <ul id="STAT230_2024W" style="display:none;">
                         <li><a href="STA230_summary_1_2024.pdf" target="_blank">Week 1 Summary</a></li>
                         <li><a href="STA230_summary_2_2024.pdf" target="_blank">Week 2 Summary</a></li>
@@ -91,7 +93,7 @@
             </ul>
 
             <ul>
-                <li><b>APM 346: Partial Differential Equations (Summer 2020)</b> <a class="toggle" onclick="showToggle(this,'APM346_2020S')">[SHOW]</a>
+                <li><b>APM 346: Partial Differential Equations (Summer 2020)</b> <a class="toggle" onclick="showToggle(this,'APM346_2020S')">[+]</a>
                     <ul id="APM346_2020S" style="display:none;">
                         <li><a href="APM346_summary_1_2020.pdf" target="_blank">Week 1 Summary</a></li>
                         <li><a href="APM346_summary_2_2020.pdf" target="_blank">Week 2 Summary</a></li>
@@ -110,7 +112,7 @@
             </ul>
 
 			<ul>
-                <li><b>MAT 186: Calculus 1 (Fall 2019)</b> <a class="toggle" onclick="showToggle(this,'MAT186_2019F')">[SHOW]</a>
+                <li><b>MAT 186: Calculus 1 (Fall 2019)</b> <a class="toggle" onclick="showToggle(this,'MAT186_2019F')">[+]</a>
                     <ul id="MAT186_2019F" style="display:none;">
                         <li><a href="MAT186_week_0_2019.pdf" target="_blank">Week 0 Summary</a></li>
                         <li><a href="MAT186_week_1_2019.pdf" target="_blank">Week 1 Summary</a></li>
@@ -131,7 +133,7 @@
             </ul>
 
 			<ul>
-                <li><b>MAT 136: Calculus 1(B) (Summer 2019)</b> <a class="toggle" onclick="showToggle(this,'MAT136_2019S')">[SHOW]</a>
+                <li><b>MAT 136: Calculus 1(B) (Summer 2019)</b> <a class="toggle" onclick="showToggle(this,'MAT136_2019S')">[+]</a>
                     <ul id="MAT136_2019S" style="display:none;">
                         <li><a href="MAT136_week_1.pdf" target="_blank">Week 1 Summary</a></li>
                         <li><a href="MAT136_week_2.pdf" target="_blank">Week 2 Summary</a></li>
@@ -164,7 +166,7 @@
             </ul> -->
 
             <ul>
-                <li><b>MAT 186: Calculus I (Fall 2018) </b> <a class="toggle" onclick="showToggle(this,'MAT186_2018F')">[SHOW]</a>
+                <li><b>MAT 186: Calculus I (Fall 2018) </b> <a class="toggle" onclick="showToggle(this,'MAT186_2018F')">[+]</a>
                     <ul id="MAT186_2018F" style="display:none;">
                         <li><a href="MAT186_week_1.pdf" target="_blank">Week 1 Summary</a></li>
                         <li><a href="MAT186_week_2.pdf" target="_blank">Week 2 Summary</a></li>
@@ -182,6 +184,8 @@
                     </ul><br>
                 </li>
             </ul>
+
+            <small>Click [+] to reveal lecture notes</small>
             
             <!-- <ul>
                 <li><b>APM 346: Partial Differential Equations (Fall 2018)</b> <a class="toggle" onclick="showToggle(this,'apm346_2018F')">[SHOW]</a>
@@ -264,12 +268,12 @@
 
     <script>
     function showToggle(el, id) {
-        if (el.innerHTML === "[HIDE]") {
-            el.innerHTML = "[SHOW]";
+        if (el.innerHTML === "[−]") {
+            el.innerHTML = "[+]";
             document.getElementById(id).style.display ="none";
             
         } else {
-            el.innerHTML = "[HIDE]";
+            el.innerHTML = "[−]";
             document.getElementById(id).style.display ="";
         }
         
